@@ -16,14 +16,15 @@ export default function RootLayout({ children }) {
     <html lang="en">
 
       <body className={inter.className}>
-         {/* <h1>Main layout es gamochndeba yvelgan</h1>  */}
   
+      <div className="container">
+        
       <Navbar/>
        
         {children}     
 
      <Footer/> 
-
+    </div>
 
         </body>
     </html>

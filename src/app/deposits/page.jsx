@@ -1,9 +1,9 @@
 import React from 'react'
 
-const ანაბრები = () => {
+const cards = () => {
   return (
     <div>ანაბრები</div>
   )
 }
 
-export default ანაბრები
+export default cards

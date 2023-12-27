@@ -1,10 +1,20 @@
-.main{
-  height: 100vh;
+/* .main{
+  height: 20vh;
   width: 100%;
   display: flex;
   background-color: aquamarine;
-}
+} */
 
-.mySpan{
+/* .mySpan{
   color: blueviolet;
+} */
+
+.container{
+  width: 100%;
+  height: 100vh;
+  padding: 0 60px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
