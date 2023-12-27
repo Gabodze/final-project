@@ -1,35 +1,45 @@
-import მთავარი from '@/app/main/page'
+import მთავარი from '@/app/home/page'
 import React from 'react'
 import styles from './page.module.css'
 import Image from 'next/image';
+// import Link from 'next/link';
+import Link from 'next/link';
 
 function Navbar() {
 
   const links = [
-    
+   
     {
       id: 1,
       title: "მთავარი",
+      url:'home',
     },
 
     {
       id: 2,
       title: "ბარათები",
+      url:'cards',
     },
 
     {
       id: 3,
       title: "დეპოზიტები",
+      url:'deposits',
+
     },
 
     {
       id: 4,
       title: "ინვესტიციები",
+      url:'investments',
+
     },
 
     {
       id: 5,
       title: "დაზღვევა",
+      url:'insurance',
+
     },
   ];
 
@@ -45,7 +55,7 @@ function Navbar() {
     />
       <div className={styles.navbarLinks}>
         {links.map((link) => (
-        <div>{link.title} </div>
+        <Link href={link.url}>{link.title} </Link>
         ))}
       </div>
     </div>

@@ -2,9 +2,7 @@ import React from 'react'
 
 const მთავარი = () => {
   return (
-    <div>
-      
-      <h1> cddc</h1>მთავარი</div>
+    <div>მთავარი</div>
   )
 }
 

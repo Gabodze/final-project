@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <main className={styles.main}>
 
-      
+
       {/* <span className={styles.mySpan}>Home</span> */}
    
    {/* <Navbar/> */}

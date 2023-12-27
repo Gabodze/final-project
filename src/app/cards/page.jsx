@@ -1,9 +1,20 @@
 import React from 'react'
 
-const ბარათები = () => {
+
+
+
+
+
+const cards = () => {
   return (
     <div>ბარათები</div>
   )
 }
 
-export default ბარათები
+
+
+
+
+
+
+export default cards
