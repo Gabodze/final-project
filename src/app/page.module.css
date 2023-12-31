@@ -1,10 +1,18 @@
 
-
+/* .cardDivcont{
+  border-radius: 16px;
+  height: 300px;
+  background-color: blue;
+} */
 
 
 
 .cardDiv{
-  margin-top: 40px;
+  border-radius: 16px;
+  height: 300px;
+  background-image:linear-gradient(#fb7435, rgb(56, 56, 56));
+
+  margin-top: 120px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -131,7 +139,7 @@ width: 50%;
 
 .homePage{
   margin: auto;
-  background-color: rgb(86, 126, 161);
+  /* background-color: rgb(86, 126, 161); */
   width: 90%;
   height: auto;
 }
@@ -148,4 +156,41 @@ width: 50%;
 
 .rame{
   display: flex;
+}
+
+.thirdSection{
+margin-bottom: 120px;
+}
+
+.thirdSectionheader{
+  padding-bottom: 30px;
+}
+
+.thirdCard{
+  display: flex;
+  width: auto;
+  gap: 16px;
+ 
+}
+
+.thirSspacetitle{
+ border: 1px solid lightgrey;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  border-radius: 16px;
+  padding: 16px;
+  text-align: left;
+  /* width: 30%; */
+  /* margin: 20px 14px; */
+  padding-bottom: 30px;
+}
+
+.cardtitle{
+  text-align: left;
+  margin-top: 8px;
+}
+
+.thirdCardimg{
+  border-radius: 8px;
 }

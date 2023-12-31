@@ -11,7 +11,7 @@ export default function Home() {
 
     <div className={styles.homePage}>
       
-        <div className={styles.cardDiv}>
+        <div className={styles.cardDivcont}>
 
          <div className={styles.cardDiv}>
 
@@ -119,6 +119,51 @@ export default function Home() {
       <span>სტუდენტებისთვის</span>
 
     </div>
+    </div>
+  
+  </div>
+
+  <div className={styles.thirdSection}> 
+    <h1 className={styles.thirdSectionheader} >რეკომენდებული პროდუქტები</h1>
+
+    <div className={styles.thirdCard}>
+    <div className={styles.thirSspacetitle}>
+    <Image className={styles.thirdCardimg} src='/1.jpg'
+              width={360}
+              height={250} 
+                />
+      <h2 className={styles.cardtitle} >გაიგე სესხის ლიმიტი</h2>
+      <br />
+      <span>შეამოწმე შენთვის დამტკიცებული ლიმიტები და გაიაქტიურე სესხი რამდენიმე წამში</span>
+      <button className={styles.gaigetMeti}>გაიგე ლიმიტი</button>
+
+
+    </div>
+    <div className={styles.thirSspacetitle}>
+    <Image className={styles.thirdCardimg} src='/1.jpg'
+              width={360}
+              height={250} 
+                />
+      <h2 className={styles.cardtitle} >გაიგე სესხის ლიმიტი</h2>
+      <br />
+      <span>შეამოწმე შენთვის დამტკიცებული ლიმიტები და გაიაქტიურე სესხი რამდენიმე წამში</span>
+      <button className={styles.gaigetMeti}>გაიგე ლიმიტი</button>
+
+
+    </div>
+    <div className={styles.thirSspacetitle}>
+    <Image className={styles.thirdCardimg} src='/1.jpg'
+              width={360}
+              height={250} 
+                />
+      <h2 className={styles.cardtitle} >გაიგე სესხის ლიმიტი</h2>
+      <br />
+      <span>შეამოწმე შენთვის დამტკიცებული ლიმიტები და გაიაქტიურე სესხი რამდენიმე წამში</span>
+      <button className={styles.gaigetMeti}>გაიგე ლიმიტი</button>
+
+
+    </div>
+  
     </div>
   
   </div>
