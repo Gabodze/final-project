@@ -1,10 +1,11 @@
 
-import Navbar from '@/component/navbar/Navbar'
-import styles from './page.module.css'
-import Footer from '@/component/footer/Footer'
-import Image from 'next/image'
-
-
+import Navbar from '@/component/navbar/Navbar';
+import styles from './page.module.css';
+import Footer from '@/component/footer/Footer';
+import Image from 'next/image';
+// import Button from '@/component/Button/button';
+// import Link from 'next/link';
+import Button from '../component/Button/button'
 export default function Home() {
   return (
 
@@ -18,8 +19,13 @@ export default function Home() {
            <div className={styles.cardTitle}> 
                 <h1 className={styles.divTitle}>ჩართე საბანკო ნაკრები</h1>
                  <span className={styles.cardSpan}>დაზოგე საკომისიოები</span>
-                 <button className={styles.cardButton}>გაიგე მეტი</button>
-           </div>
+                
+                 <Button title="Go to Another Page" url="/other-page" />
+
+       
+     {/* </Button > */}
+
+   </div>
 
             <Image src='/card.png'
               width={300}
